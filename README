@@ -1,0 +1,16 @@
+A multi simple moving average for a specific coin listed in Bittrex market. 
+
+After getting the repo, put your credentials in config/config.json.
+
+Two ways of getting it run 
+
+1) On local terminal
+    cd to the repo directory
+    hit "go run examples/main.go"
+2) Docker
+    docker build -t v:0 .
+    docker run -it -p 9090:9090 v:0
+
+
+the graphic is visible on browser : 
+    http://localhost:9090/statz
