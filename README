@@ -1,4 +1,4 @@
-A multi simple moving average for a specific coin listed in Bittrex market. 
+A multi simple moving average displayer for a specific coin listed in Bittrex market. 
 
 After getting the repo, put your credentials in config/config.json.
 
