@@ -1,0 +1,30 @@
+{
+    "secret":
+        {
+            "apikey":"yourpublickey",
+            "apisecret":"yoursecretkey"
+        },
+    
+    "configs": [
+        {
+            "name": "basic",
+            "id"  : 1,
+            "graph_max_data_points": 450,
+            "num_data_to_start_realtime_data": 100,
+            "max_num_days_to_record_incache" : 10,
+            "update_time_interval_sec"       : 3,
+            "num_ma_calc": 3,
+            "malist": [
+                {
+                    "period": 30
+                },
+                {
+                    "period": 50
+                },
+                {
+                    "period": 80
+                }
+            ]
+        }
+    ]
+}
